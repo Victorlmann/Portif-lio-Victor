@@ -7,10 +7,12 @@
 body{
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
+  height: 100vh;
+  box-sizing: border-box;
 }
 
-strong{
-  color: var(--cor-destaque);
+.titulo-destaque{
+  color: var(--cor-destaque)
 }
 
 a{
@@ -22,4 +24,27 @@ a{
   padding: 10px 30px;
   margin: 10px;
   border-radius: 15px;
+}
+
+.apresentacao{
+  display: flex;
+  margin: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foto{
+height: 490px;
+}
+
+.apresentacao_conteudo{
+  width: 615px;
+}
+
+.apresentacao_conteudo_titulo{
+  font-size: 36px;
+}
+
+.apresentacao_conteudo_texto{
+  font-size: 24px;
 }
