@@ -32,7 +32,7 @@ a{
 
 .apresentacao{
   display: flex;
-  margin: 10%;
+  margin: 15%;
   align-items: center;
   justify-content: space-between;
 }
@@ -43,13 +43,22 @@ height: 490px;
 
 .apresentacao_conteudo{
   width: 615px;
+  flex:;
+  flex-direction:collum;
+  gap: 40px;
+  
 }
 
 .apresentacao_conteudo_titulo{
   font-size: 36px;
-  font-family: 'Krona One' , 'Sans-serif'
+  font-family: 'Krona One' , Sans-serif
 }
 
 .apresentacao_conteudo_texto{
   font-size: 24px;
+  font-family: ;
+}
+
+.apresentacao_links{
+flex: ;
 }
